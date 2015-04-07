@@ -1,0 +1,18 @@
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+{{ range $group, $links := .Site.Params.footer_links }}
+      <div class="col-md-4 small">
+        <h4>{{ $group }}</h4>
+        <ul class="list-unstyled">
+  {{ range $links }}
+          <li>
+            <a href="{{ .url }}">{{ .title }}</a>
+          </li>
+  {{ end }}
+        </ul>
+      </div>
+{{ end }}
+    </div>
+  </div>
+</div>

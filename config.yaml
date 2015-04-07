@@ -5,6 +5,23 @@ languageCode: en-us
 title: Cosm Games
 params:
   description: Cosssssmmmmm Games!
+  footer_links:
+    Cosm:
+      - title: Cosm Games
+        url: http://cosmgames.com/
+      - title: About
+        url: http://cosmgames.com/page/about/
+      - title: Contact
+        url: mailto:hello@cosmgames.com
+      - title: Blog
+        url: http://blog.cosmgames.com/
+      - title: Twitter
+        url: https://twitter.com/CosmGames
+    Scaredy Geek:
+      - title: Scaredy Geek
+        url: http://scaredygeek.com/
+      - title: Twitter
+        url: https://twitter.com/ScaredyGeek
   contact:
     - title: Blog
       icon: book
