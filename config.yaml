@@ -4,7 +4,10 @@ baseurl: http://cosmgames.com/
 languageCode: en-us
 title: Cosm Games
 params:
-  description: Cosssssmmmmm Games!
+  description: |
+    Cosm Games is a group of people that does things. Do things. Hmm. Things,
+    at any rate.
+  copyright: 2015 Cosm Games
   menu:
     - title: About
       url: /page/about/
@@ -23,6 +26,8 @@ params:
     Scaredy Geek:
       - title: Scaredy Geek
         url: http://scaredygeek.com/
+      - title: GenCon Travel Fund
+        url: https://www.gofundme.com/scaredygeek
       - title: Twitter
         url: https://twitter.com/ScaredyGeek
   contact:

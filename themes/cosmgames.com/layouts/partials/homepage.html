@@ -1,12 +1,12 @@
 {{ partial "hero.html" . }}
 
 <section id="homepage">
-{{ range $i, $page := where .Data.Pages "Section" "homepage" }}
-{{ if modBool $i 2 }}
-{{ partial "homepage_section_l.html" . }}
-{{ else }}
-{{ partial "homepage_section_r.html" . }}
-{{ end }}
+{{ range $i, $section := where .Data.Pages "Section" "homepage" }}
+  {{ if modBool $i 2 }}
+    {{ partial "homepage_section_l.html" . }}
+  {{ else }}
+    {{ partial "homepage_section_r.html" . }}
+  {{ end }}
 {{ end }}
 </section>
 
