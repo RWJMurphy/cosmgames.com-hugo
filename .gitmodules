@@ -1,3 +1,6 @@
 [submodule "themes/aglaus"]
 	path = themes/aglaus
 	url = git@github.com:dim0627/hugo_theme_aglaus.git
+[submodule "themes/landing-page-hugo"]
+	path = themes/landing-page-hugo
+	url = git@github.com:crakjie/landing-page-hugo.git

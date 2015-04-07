@@ -1,25 +1,18 @@
 ---
-theme: aglaus
+theme: cosmgames.com
 baseurl: http://cosmgames.com/
 languageCode: en-us
 title: Cosm Games
-
-Params:
-  Author: "Cosm Games"
-  # Birth: "Sun, Feb 26, 1989"
-  DateForm: "Mon, Jan 2, 2006"
-  # GoogleAnalyticsUserID: "Your ID."
-  # GravatarHash: "Your Hash."
-  # Facebook: "Your ID."
-  # Twitter: "Your ID."
-  # Github: "Your ID."
-  ShowRelatedPost: True
-  # Disqus: "Your Disqus."
-  SyntaxHighlightTheme: "solarized_dark.min.css"
-
-# Indexes:
-#   tag: "tags"
-#
-# permalinks:
-#   post: /blog/:year/:month/:day/:title/
+params:
+  description: Cosssssmmmmm Games!
+  contact:
+    - title: Blog
+      icon: book
+      url: //blog.cosmgames.com/
+    - title: Twitter
+      icon: twitter
+      url: https://twitter.com/CosmGames
+    - title: Email
+      icon: envelope
+      url: mailto:hello@cosmgames.com
 ...
