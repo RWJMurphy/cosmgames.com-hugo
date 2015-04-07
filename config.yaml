@@ -5,12 +5,15 @@ languageCode: en-us
 title: Cosm Games
 params:
   description: Cosssssmmmmm Games!
+  menu:
+    - title: About
+      url: /page/about/
   footer_links:
     Cosm:
       - title: Cosm Games
-        url: http://cosmgames.com/
+        url: /
       - title: About
-        url: http://cosmgames.com/page/about/
+        url: /page/about/
       - title: Contact
         url: mailto:hello@cosmgames.com
       - title: Blog
